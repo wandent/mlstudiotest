@@ -115,7 +115,9 @@
         "x_df = Diabetes.get_tabular_dataset().to_pandas_dataframe().dropna()\n",
         "y_df = x_df.pop(\"Y\")\n",
         "\n",
-        "X_train, X_test, y_train, y_test = train_test_split(x_df, y_df, test_size=0.2, random_state=66)"
+        "X_train, X_test, y_train, y_test = train_test_split(x_df, y_df, test_size=0.2, random_state=66)\n",
+        "print('full of shit')\n",
+        "print('full of garbage')    "
       ],
       "outputs": [],
       "execution_count": null,
@@ -370,6 +372,12 @@
         "name": "trbye"
       }
     ],
+    "categories": [
+      "tutorials"
+    ],
+    "kernel_info": {
+      "name": "python3-azureml"
+    },
     "kernelspec": {
       "name": "python3-azureml",
       "language": "python",
@@ -389,12 +397,6 @@
     },
     "msauthor": "trbye",
     "network_required": false,
-    "categories": [
-      "tutorials"
-    ],
-    "kernel_info": {
-      "name": "python3-azureml"
-    },
     "nteract": {
       "version": "nteract-front-end@1.0.0"
     }
