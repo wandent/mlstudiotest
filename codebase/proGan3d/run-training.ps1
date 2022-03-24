@@ -1,0 +1,3 @@
+
+. "$PSScriptRoot\environment.ps1"
+az ml job create ....
